@@ -7,20 +7,18 @@ export default function Skills() {
   // 1. Next.js 2. React.js 3. JavaScript 4. Three.js 5. React Three Fiber 6. Tailwind CSS 7. HTML5 8. CSS3
   // 9. Node.js 10. Express.js 11. Python 12. Django 13. MySQL 14. Git / GitHub
   const skillsList = [
-    { name: "Next.js", rank: 1, category: "Frontend Core", level: "Primary Focus", desc: "App Router, SSR, SSG, RSC", highlight: true, color: "from-indigo-600 to-blue-600" },
-    { name: "React.js", rank: 2, category: "Frontend Core", level: "Primary Focus", desc: "Component Architecture, Hooks, Context", highlight: true, color: "from-blue-600 to-cyan-600" },
-    { name: "JavaScript", rank: 3, category: "Frontend Core", level: "Primary Focus", desc: "ES6+, Async, DOM, Performance", highlight: true, color: "from-amber-500 to-yellow-600" },
-    { name: "Three.js", rank: 4, category: "3D & WebGL", level: "Primary Focus", desc: "3D Geometry, Shaders, Lighting", highlight: true, color: "from-indigo-600 to-purple-600" },
-    { name: "React Three Fiber", rank: 5, category: "3D & WebGL", level: "Primary Focus", desc: "Canvas, Drei, Declarative 3D", highlight: true, color: "from-purple-600 to-pink-600" },
-    { name: "Tailwind CSS", rank: 6, category: "Styling & UI", level: "Primary Focus", desc: "Utility-first Design, Responsive Layouts", highlight: true, color: "from-teal-500 to-emerald-600" },
-    { name: "HTML5", rank: 7, category: "Foundations", level: "Core Stack", desc: "Semantic Markup, Accessibility, SEO", highlight: false, color: "from-orange-500 to-amber-600" },
-    { name: "CSS3", rank: 8, category: "Foundations", level: "Core Stack", desc: "Flexbox, Grid, CSS Animations", highlight: false, color: "from-blue-600 to-indigo-600" },
-    { name: "Node.js", rank: 9, category: "Backend Stack", level: "Secondary Skill", desc: "Runtime Environment, APIs", highlight: false, color: "from-emerald-600 to-green-600" },
-    { name: "Express.js", rank: 10, category: "Backend Stack", level: "Secondary Skill", desc: "RESTful Routing, Middleware", highlight: false, color: "from-slate-500 to-zinc-600" },
-    { name: "Python", rank: 11, category: "Backend & Logic", level: "Secondary Skill", desc: "Scripting, Django, Celery Workflows", highlight: false, color: "from-amber-600 to-blue-600" },
-    { name: "Django", rank: 12, category: "Backend Stack", level: "Secondary Skill", desc: "DRF, ORM, Multi-Tenant Auth", highlight: false, color: "from-emerald-700 to-teal-800" },
-    { name: "MySQL", rank: 13, category: "Databases", level: "Secondary Skill", desc: "Relational Queries, Schemas, Indexing", highlight: false, color: "from-blue-600 to-indigo-700" },
-    { name: "Git / GitHub", rank: 14, category: "Dev Tools", level: "Core Tooling", desc: "Version Control, CI/CD Workflows", highlight: false, color: "from-orange-600 to-red-600" },
+    { name: "HTML5", rank: 1, category: "Frontend Core", level: "Primary Focus", desc: "Semantic Markup, Responsive Layouts, SEO", highlight: true, color: "from-orange-500 to-amber-600" },
+    { name: "Bootstrap 5 (Latest)", rank: 2, category: "Frontend Core", level: "Primary Focus", desc: "Mobile-First Grid, Utility Classes, UI Components", highlight: true, color: "from-purple-600 to-indigo-600" },
+    { name: "JavaScript (ES6+)", rank: 3, category: "Frontend Core", level: "Primary Focus", desc: "ES6+, DOM Manipulation, AJAX, Async Logic", highlight: true, color: "from-amber-500 to-yellow-600" },
+    { name: "CSS3", rank: 4, category: "Frontend Core", level: "Primary Focus", desc: "Flexbox, CSS Grid, Custom Animations", highlight: true, color: "from-blue-600 to-indigo-600" },
+    { name: "React.js", rank: 5, category: "Modern Stack", level: "Primary Focus", desc: "Component Architecture, Hooks, Dynamic UI", highlight: true, color: "from-blue-500 to-cyan-600" },
+    { name: "Next.js", rank: 6, category: "Modern Stack", level: "Primary Focus", desc: "App Router, SSR, Server Components", highlight: true, color: "from-slate-700 to-slate-900" },
+    { name: "Tailwind CSS", rank: 7, category: "Styling & UI", level: "Core Stack", desc: "Utility-first Layouts, Responsive UI", highlight: false, color: "from-teal-500 to-emerald-600" },
+    { name: "Three.js", rank: 8, category: "3D & WebGL", level: "Interactive UI", desc: "3D Visualizers, Canvas Shaders", highlight: false, color: "from-indigo-600 to-purple-600" },
+    { name: "Python", rank: 9, category: "Backend Stack", level: "Core Stack", desc: "Scripting, Business Logic", highlight: false, color: "from-amber-600 to-blue-600" },
+    { name: "Django", rank: 10, category: "Backend Stack", level: "Core Stack", desc: "Django DRF, Web Templates, ORM", highlight: false, color: "from-emerald-700 to-teal-800" },
+    { name: "MySQL", rank: 11, category: "Databases", level: "Secondary Skill", desc: "Relational Queries & Schemas", highlight: false, color: "from-blue-600 to-indigo-700" },
+    { name: "Git / GitHub", rank: 12, category: "Dev Tools", level: "Core Tooling", desc: "Version Control, Deployment Workflows", highlight: false, color: "from-orange-600 to-red-600" },
   ];
 
   return (
@@ -34,7 +32,7 @@ export default function Skills() {
             <span>TECHNICAL PROFICIENCY</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-            Skills & <span className="text-gradient-indigo">Technologies</span>
+            Skills & Technologies
           </h2>
           <p className="text-slate-600 text-sm sm:text-base max-w-2xl">
             Prioritized engineering toolkit with primary focus on modern frontend web technologies, enterprise Python/Django frameworks, and interactive 3D graphics.

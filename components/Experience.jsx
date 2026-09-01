@@ -5,42 +5,44 @@ import { Briefcase, Calendar, MapPin, CheckCircle } from "lucide-react";
 export default function Experience() {
   const experiences = [
     {
-      role: "Lead Full-Stack / Backend Developer",
-      company: "STAFF-DO & CSAP ERP Engineering Team",
+      role: "Senior Frontend Developer",
+      company: "CSAP ERP",
       period: "2024 - Present",
       location: "Remote",
-      description: "Architecting multi-tenant gig economy marketplaces and enterprise HRMS/Payroll ERP systems using Python, Django 4.2/5.x, DRF, and Docker.",
+      description: "Senior Frontend Developer building responsive UI architecture for enterprise HRMS platforms, biometric attendance portals, and payroll accounting modules using HTML5, Bootstrap 5 (Latest), CSS3, and JavaScript.",
       achievements: [
-        "Architected STAFF-DO gig accounting engine handling GPS geolocation check-in/out, wage tracking, and PyMuPDF invoice generation.",
-        "Integrated ZKTeco physical biometric hardware with PyZK and Celery background queues across multi-branch enterprise networks.",
-        "Implemented fine-grained object-level access control using Django Guardian and django-auditlog enterprise tracking."
+        "Designed and built the CSAP ERP responsive frontend UI suite using HTML5 and Bootstrap 5 (Latest) encompassing HRMS, Payroll, Biometric Attendance, Inventory, and Branch Accounting.",
+        "Created real-time biometric attendance dashboard widgets rendering live punch logs across multi-branch enterprise networks.",
+        "Engineered interactive payslip calculators, leave approval interfaces, punch regularization forms, and salary slip PDF preview renderers.",
+        "Implemented role-based conditional UI views based on object-level permission models for multi-tenant branch management."
       ],
-      technologies: ["Python 3.11", "Django 4.2/5.x", "DRF", "MySQL", "Gevent/Gunicorn", "Celery", "Docker"],
+      technologies: ["HTML5", "Bootstrap 5 (Latest)", "CSS3", "JavaScript (ES6+)", "jQuery / AJAX", "Responsive Layouts", "UI Design"],
     },
     {
-      role: "Backend & Systems Engineer",
-      company: "IECI ERP Educational Project",
+      role: "Frontend Developer",
+      company: "IECI Educational ERP Project",
       period: "2023 - 2024",
       location: "Hybrid",
-      description: "Engineered institutional examination ERP digitizing student lifecycles, exam center capacities, and multi-component score evaluations.",
+      description: "Engineered responsive frontend interfaces and interactive assessment dashboards for institutional examination ERP systems using HTML5, Bootstrap 5 (Latest), and JavaScript.",
       achievements: [
-        "Built asynchronous bulk PDF document generation pipeline (Hall Tickets, Certificates) using WeasyPrint and Celery.",
-        "Integrated Pusher WebSockets for real-time background task completion alerts on user dashboards.",
-        "Enforced 7-role RBAC authorization and append-only audit trail logging (StudentScoreLog)."
+        "Designed and built responsive Bootstrap 5 component layouts for multi-tier exam scoring, seat management, and hall ticket preview interfaces.",
+        "Integrated real-time progress indicators and background batch task completion alerts for administrator dashboards.",
+        "Enforced WCAG accessibility compliance, mobile-responsive layouts, and performant data tables for large student evaluation lists."
       ],
-      technologies: ["Django 4.2", "MySQL 8.0", "Redis", "Celery", "Pusher WebSockets", "WeasyPrint", "Docker"],
+      technologies: ["HTML5", "Bootstrap 5 (Latest)", "CSS3", "JavaScript", "AJAX", "Responsive Layouts"],
     },
     {
-      role: "Lead Developer",
+      role: "Frontend Developer",
       company: "JDT Arts & Science College Portal",
       period: "2022 - 2023",
       location: "On-site",
-      description: "Developed full-stack university CMS, Student Grievance Redressal portal, and Alumni directory.",
+      description: "Engineered frontend web application development for university CMS, interactive student grievance redressal portal, and alumni directory using HTML5, Bootstrap 5 (Latest), and CSS3.",
       achievements: [
-        "Created production Docker containers and 2-stage GitLab CI/CD pipeline with automated security audits (--tag security).",
-        "Integrated Sentry SDK for runtime exception monitoring, Gunicorn gevent async workers, and Nginx reverse proxy."
+        "Developed responsive university portals, department catalogs, and interactive student application forms using HTML5 and Bootstrap 5.",
+        "Established modular UI architecture and Bootstrap style guides ensuring consistent visual design across all college department web modules.",
+        "Configured frontend performance optimizations, asset minification, and cross-browser testing to guarantee smooth mobile and desktop browsing."
       ],
-      technologies: ["Python", "Django", "MySQL", "GitLab CI/CD", "Nginx", "Gunicorn (gevent)", "Sentry"],
+      technologies: ["HTML5", "Bootstrap 5 (Latest)", "CSS3", "JavaScript", "UI Design"],
     },
   ];
 
@@ -55,10 +57,10 @@ export default function Experience() {
             <span>CAREER ROADMAP</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-            Professional <span className="text-gradient-indigo">Experience</span>
+            Professional Experience
           </h2>
           <p className="text-slate-600 text-sm sm:text-base max-w-2xl">
-            My engineering track record delivering enterprise applications, async server architectures, and full-stack solutions.
+            My engineering track record in frontend development, building modern web applications, design systems, and responsive enterprise solutions.
           </p>
         </div>
 

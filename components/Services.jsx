@@ -5,17 +5,17 @@ import { Box, Layers, Layout, Server, Sparkles, CheckCircle2, ArrowRight } from 
 export default function Services() {
   const servicesList = [
     {
-      title: "Enterprise ERP & Marketplace Backends",
-      category: "Python & Django DRF",
-      description: "Building scalable multi-tenant platforms, RBAC authorization, automated PDF accounting engines, and async Celery background task queues.",
+      title: "Responsive HTML5 & Bootstrap 5 UI Layouts",
+      category: "Bootstrap 5 (Latest)",
+      description: "Building responsive, mobile-first web user interfaces utilizing HTML5 semantic markup, Bootstrap 5 (Latest) grid systems, utilities, and custom CSS3 styling.",
       features: [
-        "Django 4.2/5.x & REST Framework API architecture",
-        "Geofenced check-in & biometric hardware integration",
-        "Celery/Redis background task queues & OpenPyXL exports"
+        "Bootstrap 5 grid system & responsive flexbox layouts",
+        "Cross-browser pixel-perfect rendering & accessibility",
+        "Mobile-first UI component design & dynamic DOM manipulation"
       ],
-      icon: Server,
-      accent: "from-indigo-600 to-blue-600",
-      border: "border-indigo-200",
+      icon: Layout,
+      accent: "from-purple-600 to-indigo-600",
+      border: "border-purple-200",
     },
     {
       title: "Modern Next.js & React Frontend",
@@ -69,7 +69,7 @@ export default function Services() {
             <span>SOLUTIONS & SERVICES</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-            What I <span className="text-gradient-indigo">Deliver</span>
+            What I Deliver
           </h2>
           <p className="text-slate-600 text-sm sm:text-base max-w-2xl">
             Specialized full-stack backend development, enterprise ERP architecture, modern Next.js frontends, and 3D web experiences.

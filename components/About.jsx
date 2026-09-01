@@ -5,25 +5,25 @@ import { User, Code, Sparkles, Server } from "lucide-react";
 export default function About() {
   const highlights = [
     {
-      title: "Enterprise ERP & Marketplace Backends",
-      description: "Architecting multi-tenant Django & Python backends handling high-concurrency gig management, payroll, and biometric hardware syncing.",
-      icon: Server,
+      title: "HTML5 & Bootstrap 5 UI Architecture",
+      description: "Building responsive, mobile-first web user interfaces using HTML5 semantic elements and Bootstrap 5 (Latest) grid systems, utilities, and components.",
+      icon: Code,
+      color: "text-purple-600",
+      bg: "bg-purple-50",
+      border: "border-purple-200",
+    },
+    {
+      title: "Modern JavaScript & Responsive Web Dev",
+      description: "Engineered web applications with ES6+ JavaScript, DOM manipulation, dynamic AJAX data fetching, and cross-browser CSS3 styling.",
+      icon: Sparkles,
       color: "text-emerald-600",
       bg: "bg-emerald-50",
       border: "border-emerald-200",
     },
     {
-      title: "Next.js & Modern React Architecture",
-      description: "Building fast, SEO-friendly server-rendered web applications with optimized React Server Components and state management.",
-      icon: Code,
-      color: "text-indigo-600",
-      bg: "bg-indigo-50",
-      border: "border-indigo-200",
-    },
-    {
-      title: "Interactive 3D Web Graphics",
-      description: "Leveraging Three.js & React Three Fiber to build high-performance 3D visual experiences without compromising load times.",
-      icon: Sparkles,
+      title: "Interactive Web Graphics & WebGL",
+      description: "Integrating modern 3D visualizers with Three.js to complement responsive HTML5 and Bootstrap 5 user interfaces.",
+      icon: Server,
       color: "text-amber-600",
       bg: "bg-amber-50",
       border: "border-amber-200",
@@ -31,10 +31,10 @@ export default function About() {
   ];
 
   const stats = [
-    { label: "Core Full-Stack Stack", value: "Django & Next.js" },
-    { label: "3D & Interactive", value: "Three.js / R3F" },
-    { label: "Architecture Quality", value: "Enterprise Grade" },
-    { label: "Async Performance", value: "Gevent / Celery" },
+    { label: "Primary Role", value: "Senior Frontend Developer" },
+    { label: "Core UI Stack", value: "HTML5 & Bootstrap 5" },
+    { label: "Scripting & Logic", value: "JavaScript (ES6+)" },
+    { label: "Design Systems", value: "Responsive Layouts" },
   ];
 
   return (
@@ -48,10 +48,10 @@ export default function About() {
             <span>ABOUT ME</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-            Engineering Digital <span className="text-gradient-indigo">Platforms</span>
+            Engineering Digital Platforms
           </h2>
           <p className="text-slate-600 text-sm sm:text-base max-w-2xl">
-            Full Stack & Frontend Developer specializing in enterprise Python/Django platforms, modern Next.js web applications, and interactive 3D graphics.
+            Frontend Developer specializing in responsive HTML5, Bootstrap 5 (Latest), JavaScript (ES6+), and modern web application development.
           </p>
         </div>
 
@@ -75,13 +75,13 @@ export default function About() {
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/20 to-transparent flex flex-col justify-end p-6">
                     <div className="space-y-1">
                       <span className="text-xs font-mono text-emerald-300 font-semibold px-2.5 py-1 rounded-md bg-emerald-950/80 border border-emerald-500/30 w-fit block">
-                        Full Stack Developer
+                        Frontend Developer
                       </span>
                       <h3 className="text-2xl font-extrabold text-white">
                         Abdul Hakeem
                       </h3>
                       <p className="text-xs text-slate-200 font-mono">
-                        React.js • Next.js • Python / Django • Three.js
+                        HTML5 • Bootstrap 5 (Latest) • JavaScript • CSS3
                       </p>
                     </div>
                   </div>
@@ -98,13 +98,13 @@ export default function About() {
           {/* Right Column: Narrative & Stats */}
           <div className="lg:col-span-7 space-y-6">
             <h3 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">
-              Passionate Engineering & <span className="text-indigo-600">Innovation</span>
+              Frontend Engineering & Web Excellence
             </h3>
             <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
-              I specialize in architecting full-stack web applications, multi-tenant ERP platforms, and interactive frontend interfaces. By pairing robust <span className="text-emerald-700 font-semibold">Python / Django</span> backends with modern <span className="text-indigo-700 font-semibold">React.js</span>, <span className="text-indigo-700 font-semibold">Next.js</span>, and <span className="text-amber-700 font-semibold">Three.js</span>, I build applications that excel in both complex business logic and visual presentation.
+              I specialize in frontend development and building responsive, mobile-first web applications using <span className="text-indigo-700 font-semibold">HTML5</span>, <span className="text-indigo-700 font-semibold">Bootstrap 5 (Latest)</span>, <span className="text-emerald-700 font-semibold">CSS3</span>, and <span className="text-amber-700 font-semibold">JavaScript (ES6+)</span>. I craft web interfaces that excel in cross-browser compatibility, visual presentation, and seamless user interaction.
             </p>
             <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
-              My engineering track record includes building on-demand gig staffing platforms (STAFF-DO), biometric HRMS ERP systems (CSAP ERP), institutional exam evaluation engines (IECI ERP), and college CMS portals (JDT Arts).
+              My track record includes developing enterprise resource planning systems (CSAP ERP), institutional exam portals (IECI ERP), gig economy marketplace platforms (STAFF-DO), and college CMS web applications (JDT Arts).
             </p>
 
             <div className="pt-2 grid grid-cols-2 gap-4">

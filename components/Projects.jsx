@@ -15,9 +15,9 @@ export default function Projects() {
       id: "staff-do",
       title: "STAFF-DO — On-Demand Staffing & Gig Marketplace Platform",
       category: "Gig & Staffing",
-      role: "Full Stack / Lead Backend Developer",
+      role: "Frontend Developer",
       summary: "Full-featured enterprise-grade on-demand staffing & gig marketplace platform connecting enterprises with temporary contract workforces.",
-      tags: ["Python 3.8+", "Django 4.2 LTS", "Django REST Framework", "MySQL", "Docker", "Gunicorn (Gevent)", "Celery", "PyMuPDF", "i18n"],
+      tags: ["HTML5", "Bootstrap 5 (Latest)", "CSS3", "JavaScript", "Python", "Django DRF", "MySQL", "i18n"],
       imageGradient: "from-emerald-500/10 via-teal-500/5 to-white",
       accentColor: "emerald",
       liveUrl: "https://staffdo.com",
@@ -26,34 +26,29 @@ export default function Projects() {
       
       cvEntry: {
         projectName: "STAFF-DO — On-Demand Staffing & Gig Marketplace Platform",
-        role: "Full Stack / Backend Developer",
-        techStack: "Python, Django 4.2 LTS, Django REST Framework, MySQL, Docker, Gunicorn, Gevent, Celery/Async Workflows, PyMuPDF, Sentry, Nginx, i18n (Spanish/English).",
+        role: "Frontend Developer",
+        techStack: "HTML5, Bootstrap 5 (Latest), CSS3, JavaScript, Python, Django REST Framework, Docker, Sentry, i18n.",
         accomplishments: [
-          "Architected Multi-Tenant Platform: Built end-to-end multi-role portal supporting Candidates, Companies, Contractors, and Administrators with custom RBAC permissions and OAuth/Social authentication (django-allauth).",
-          "Engineered Real-Time Gig Management Engine: Implemented shift tracking with GPS geolocation check-in/check-out, break-time monitoring, dynamic tax & insurance calculations, and automated payout balance tracking.",
-          "Built Job Portal & ATS Module: Developed robust job posting and candidate pipeline workflow, allowing custom screening questions, application shortlisting, candidate matching, and email notifications.",
-          "Optimized Async Server Performance: Implemented high-concurrency request handling using Gunicorn with Gevent eventlets and custom database connection pooling to handle peak traffic during gig check-ins.",
-          "Automated Document & Reporting Pipeline: Integrated PyMuPDF and xhtml2pdf for automated invoice and report generation, alongside openpyxl for Excel analytics exports.",
-          "Implemented Security & Audit Trails: Integrated django-auditlog for full enterprise action logging, Content Security Policy (django-csp), dynamic XSS sanitization, and localized multi-language support (i18n)."
+          "Frontend Architecture: Built responsive HTML5 and Bootstrap 5 (Latest) multi-role web portal supporting Candidates, Companies, Contractors, and Administrators.",
+          "Engineered Real-Time Gig UI Workflows: Built live shift tracking interfaces featuring browser/mobile GPS geolocation check-in/check-out, break-time countdown timers, and dynamic fee breakdowns.",
+          "Built Job Portal & ATS Frontend Module: Developed responsive job application pipelines, candidate screening forms, interactive applicant shortlisting drawers, and notification toasts.",
+          "Cross-Browser & Responsive Optimization: Ensured 100% mobile responsiveness and cross-browser compatibility across iOS, Android, Chrome, and Safari.",
+          "Automated Document Preview & Multi-Language Support: Built interactive PDF invoice previews and integrated full i18n localization support across candidate and employer dashboards."
         ],
         shortBulletPoints: [
-          "Built an end-to-end gig economy & temporary staffing platform connecting enterprises with on-demand contract workers.",
-          "Developed real-time geolocation check-in/check-out and break tracking algorithms to automate wage, tax, and commission accounting.",
-          "Designed RESTful APIs for job listings, applicant tracking (ATS), bookmarking, candidate ratings, and multi-channel notification alerts.",
-          "Configured Dockerized dev/prod deployment pipeline with Gunicorn/Gevent concurrency, Nginx reverse proxy, and Sentry monitoring."
+          "Developed responsive HTML5 and Bootstrap 5 (Latest) frontend components for an enterprise gig marketplace.",
+          "Designed real-time GPS check-in/check-out UI components and interactive shift management dashboards.",
+          "Architected reusable Bootstrap template components with multi-language (i18n) localization.",
+          "Optimized mobile frontend responsiveness and cross-browser compatibility."
         ],
         interviewTalkingPoints: [
           {
-            topic: "Handling Concurrency & Scaling",
-            quote: "In STAFF-DO, we configured Gunicorn with Gevent asynchronous workers to handle high concurrency when multiple workers check into gigs simultaneously at shift start times, optimizing DB connection management to prevent connection leaks."
+            topic: "Frontend UI Architecture",
+            quote: "In STAFF-DO, I engineered the responsive user interfaces using HTML5 and Bootstrap 5 (Latest) to ensure seamless usability across candidate mobile phones and company desktop portals."
           },
           {
-            topic: "Complex Business Logic (Gig Accounting Engine)",
-            quote: "I built the time-tracking and wage calculation module. It handles check-in/check-out timestamps, tracks break times, factors in hourly rates, calculates platform commissions and insurance deductions, and maintains dynamic balance ledgers for candidates and companies."
-          },
-          {
-            topic: "Multi-Tenant Security",
-            quote: "We designed custom authentication backends and role-based permissions (User, Company, Contractor, Admin) with audit logging across all state-changing endpoints to comply with security standards."
+            topic: "Real-Time Geolocation Workflows",
+            quote: "I designed and implemented the geolocation check-in interface that captures real-time worker coordinates and renders live shift status indicators."
           }
         ]
       }
@@ -62,9 +57,9 @@ export default function Projects() {
       id: "csap-erp",
       title: "CSAP ERP — Enterprise Resource Planning & HRMS System",
       category: "Enterprise & ERP",
-      role: "Full-Stack Django / Backend Developer",
-      summary: "Modular enterprise management system covering HRMS, Payroll, PyZK Biometric Hardware sync, Inventory, Branch Accounting, and fine-grained permissions.",
-      tags: ["Python 3", "Django 5.x", "DRF", "Celery", "Redis", "MySQL", "PyZK (Biometrics)", "Django Guardian", "WeasyPrint", "Docker"],
+      role: "Senior Frontend Developer",
+      summary: "Modular enterprise management system covering HRMS, Payroll, Biometric Hardware Sync UI, Inventory, Branch Accounting, and fine-grained permissions.",
+      tags: ["HTML5", "Bootstrap 5 (Latest)", "CSS3", "JavaScript", "Python", "Django 5.x", "MySQL", "Docker"],
       imageGradient: "from-amber-500/10 via-indigo-500/5 to-white",
       accentColor: "amber",
       liveUrl: "https://csaperp.com",
@@ -73,35 +68,23 @@ export default function Projects() {
       
       cvEntry: {
         projectName: "CSAP Enterprise Resource Planning (ERP) System",
-        role: "Full-Stack Django / Backend Developer",
-        techStack: "Python 3, Django 5.x, Django REST Framework (DRF), Celery, Redis, MySQL / PostgreSQL, PyZK (Biometric Device Integration), Django Guardian (Object-Level Permissions), WeasyPrint (PDF Generation), Docker, HTML5, CSS3, JavaScript.",
+        role: "Senior Frontend Developer",
+        techStack: "HTML5, Bootstrap 5 (Latest), CSS3, JavaScript (ES6+), jQuery / AJAX, Python, Django 5.x, Django REST Framework (DRF), Docker.",
         accomplishments: [
-          "Architected & Developed CSAP ERP, a modular, full-suite Enterprise Resource Planning platform covering HRMS, Payroll, Biometric Attendance, Inventory, Accounting, Branch Management, and Role-Based Access Control (RBAC).",
-          "Integrated Biometric Attendance Sync using pyzk library and Celery/Redis background workers to automatically ingest, sync, and process real-time punch data from physical biometric hardware across multiple branches.",
-          "Engineered Payroll & Leave Management Modules supporting custom pay structures, automated salary slip generation (PDF generation using WeasyPrint), leave calculations, and punch regularization workflows.",
-          "Built Fine-Grained Access Control & Security implementing Django Guardian for object-level permissions alongside custom RBAC, ensuring strict multi-tenant branch data isolation and secure user role hierarchy.",
-          "Designed & Consumption-Ready REST APIs using Django REST Framework (DRF) alongside dynamic server-side rendered dashboard UI views.",
-          "Optimized Database Performance & Asynchronous Jobs with Django ORM query optimization, select_related/prefetch_related indexing, and Celery task queues for long-running reporting & bulk data exports.",
-          "Containerized Deployment using Docker and Docker Compose with Nginx and Gunicorn to achieve environment consistency across development and production environments."
+          "Designed & Built CSAP ERP Frontend: Developed UI/UX design and responsive Bootstrap 5 (Latest) component architecture for a modular ERP platform encompassing HRMS, Payroll, Biometric Attendance, Inventory, and Branch Accounting.",
+          "Biometric Hardware Sync Interface: Created real-time attendance monitor dashboard widgets that render live employee punch-in events streamed from physical biometric devices.",
+          "Engineered Interactive Payslip & HR Workflows: Built dynamic payroll calculators, leave approval drawers, interactive salary slip PDF renderers, and punch regularization forms.",
+          "Fine-Grained Role Permissions UI: Designed conditional UI rendering based on object-level permission models, restricting feature access dynamically for branch managers versus system administrators."
         ],
         shortBulletPoints: [
-          "Developed enterprise management system unifying HR & Payroll, Biometric Hardware Sync, Inventory, Customer/Vendor Management, and Accounting.",
-          "Integrated ZKTeco physical biometric hardware via pyzk and Celery background queues to process shift punch logs across branch networks.",
-          "Implemented object-level security permissions using Django Guardian for strict multi-branch data isolation.",
-          "Automated monthly bulk PDF payslip generation and Excel analytics reporting using WeasyPrint and OpenPyXL."
+          "Engineered responsive HTML5 and Bootstrap 5 (Latest) UI components for enterprise HRMS platform unifying Payroll, Biometric Sync, and Branch Accounting.",
+          "Built real-time biometric punch stream UI widgets and dynamic payroll calculation tools.",
+          "Designed role-based conditional UI components for multi-tenant branch management compliance."
         ],
         interviewTalkingPoints: [
           {
-            topic: "Hardware - Software Integration",
-            quote: "Solved real-time biometric device data syncing challenges by utilizing background Celery workers and TCP/IP protocol integration via pyzk."
-          },
-          {
-            topic: "Scalable Permission Model",
-            quote: "Implemented dual-layer authorization — Django's built-in RBAC for application features + django-guardian for fine-grained row-level data permissions (e.g., branch managers can only view/edit records belonging to their assigned branch)."
-          },
-          {
-            topic: "Background Processing & Performance",
-            quote: "Asynchronous task processing with Redis + Celery prevented request blocking during heavy reporting, email dispatches, and attendance calculations."
+            topic: "Responsive ERP Dashboards",
+            quote: "I designed clean, high-density HTML5 and Bootstrap 5 (Latest) dashboards that allow branch managers to review attendance logs, process payroll, and generate payslips effortlessly."
           }
         ]
       }
@@ -110,9 +93,9 @@ export default function Projects() {
       id: "ieci-erp",
       title: "IECI ERP — Institutional & Examination Management System",
       category: "Enterprise & ERP",
-      role: "Backend / Full Stack Engineer",
+      role: "Frontend Developer",
       summary: "Institutional ERP & Examination Management System supporting student lifecycles, exam scheduling, 4-tier mark evaluation pipelines, and bulk PDF hall ticket generation.",
-      tags: ["Python 3.8+", "Django 4.2 LTS", "DRF", "MySQL 8.0", "Redis", "Celery", "Pusher WebSockets", "WeasyPrint", "ReportLab", "Docker"],
+      tags: ["HTML5", "Bootstrap 5 (Latest)", "CSS3", "JavaScript", "AJAX", "Python", "Django 4.2", "MySQL"],
       imageGradient: "from-indigo-500/10 via-purple-500/5 to-white",
       accentColor: "indigo",
       liveUrl: "https://iecierp.com",
@@ -121,34 +104,23 @@ export default function Projects() {
       
       cvEntry: {
         projectName: "IECI ERP (Institutional & Examination Management ERP System)",
-        role: "Software Engineer / Backend Developer",
-        techStack: "Python 3.8+, Django 4.2 LTS, Django REST Framework (DRF), MySQL 8.0, Redis, Celery, Django-Celery-Beat, Pusher WebSockets, WeasyPrint, ReportLab, PyPDF2, xhtml2pdf, Docker, Gunicorn (gevent).",
+        role: "Frontend Developer",
+        techStack: "HTML5, Bootstrap 5 (Latest), CSS3, JavaScript, AJAX, Python 3.8+, Django 4.2 LTS, DRF, MySQL.",
         accomplishments: [
-          "Designed and developed a modular Enterprise Resource Planning (ERP) platform using Django 4.2, MySQL, and Redis to streamline examination workflows for multi-tier educational institutions.",
-          "Implemented Celery background worker queues to process asynchronous long-running tasks such as bulk PDF generation (Hall Tickets, Certificates) and Excel reporting without blocking HTTP request threads.",
-          "Architected a multi-component scoring engine handling Continuous Evaluation (CE), Objective, Descriptive, and Practical marks with 3-tier approval/rejection audit logging.",
-          "Built a multi-tenant Role-Based Access Control (RBAC) system with custom DRF permissions and Django authentication backends supporting 7 distinct user roles.",
-          "Optimized MySQL queries using Django ORM select_related/prefetch_related and dynamic indexing, significantly improving dashboard response times.",
-          "Containerized the entire application ecosystem using Docker, Gunicorn (gevent workers), and Nginx for dev/prod environment parity and high-concurrency request handling."
+          "Frontend UI Architecture: Designed responsive HTML5 and Bootstrap 5 (Latest) frontend interfaces for examination workflows serving multi-tier educational institutions.",
+          "Batch Task Progress Alerts UI: Integrated progress indicator bars and toast alerts when mass hall ticket PDF generation completes.",
+          "Evaluation Score Engine UI: Built dynamic multi-component score entry forms for Continuous Evaluation, Objective, Descriptive, and Practical marks with inline AJAX validation.",
+          "High-Density Data Grid Optimization: Implemented optimized HTML tabular rendering for student rosters, improving data entry speed for faculty members."
         ],
         shortBulletPoints: [
-          "Engineered institutional examination ERP digitizing student lifecycles, exam center scheduling, and multi-tier answer mark evaluations.",
-          "Built decoupled Celery bulk PDF generation pipeline for rendering thousands of student hall tickets and merit certificates asynchronously.",
-          "Integrated Pusher WebSockets for real-time progress updates and background task notifications on user dashboards.",
-          "Enforced 7-role RBAC authorization and immutable audit trails (StudentScoreLog) to prevent grade tampering."
+          "Engineered institutional examination ERP frontend digitizing student lifecycles and exam evaluation workflows using HTML5 and Bootstrap 5 (Latest).",
+          "Integrated task progress indicators and alert notifications for administrative evaluation camps.",
+          "Built high-density score entry tables for rapid grade evaluations by faculty members."
         ],
         interviewTalkingPoints: [
           {
-            topic: "High-Volume Bulk PDF Generation",
-            quote: "Solved timeout issues during mass hall ticket generation for thousands of students by decoupling rendering into Celery background tasks with chunked file operations."
-          },
-          {
-            topic: "Concurrency & Worker Safety",
-            quote: "Tuned Gunicorn gevent async workers and configured MySQL connection pooling to prevent database connection exhaustion under heavy concurrent user access during exam registration periods."
-          },
-          {
-            topic: "Granular Auditability",
-            quote: "Designed StudentScoreLog model triggers to maintain an append-only audit trail of mark modifications, preventing unauthorized grade tampering across institutional and evaluation camp boundaries."
+            topic: "Tabular Data Entry Optimization",
+            quote: "I structured HTML5 tables with custom keyboard navigation so evaluation staff could rapidly enter thousands of student marks without mouse friction."
           }
         ]
       }
@@ -157,9 +129,9 @@ export default function Projects() {
       id: "jdt-arts",
       title: "JDT Arts & Science College Portal — Management System & CMS",
       category: "Institutional Web",
-      role: "Lead Backend / Full Stack Developer",
-      summary: "Full-stack web application & CMS powering college department catalogs, Student Grievance Redressal engine, Alumni directory, and GitLab CI/CD security pipelines.",
-      tags: ["Python 3.11", "Django 4.2", "DRF", "MySQL", "Docker", "Nginx", "Gunicorn (gevent)", "GitLab CI/CD", "Sentry", "OpenPyXL"],
+      role: "Frontend Developer",
+      summary: "Full-stack web application & CMS powering college department catalogs, Student Grievance Redressal engine, Alumni directory, and GitLab CI/CD pipelines.",
+      tags: ["HTML5", "Bootstrap 5 (Latest)", "CSS3", "JavaScript", "Python", "Django", "MySQL", "GitLab CI/CD"],
       imageGradient: "from-teal-500/10 via-emerald-500/5 to-white",
       accentColor: "teal",
       liveUrl: "https://jdtarts.codesap.com",
@@ -168,29 +140,22 @@ export default function Projects() {
       
       cvEntry: {
         projectName: "JDT Islam College of Arts & Science Management Portal",
-        role: "Lead Backend / Full Stack Developer",
-        techStack: "Python 3.11, Django 4.2 LTS, Django REST Framework, MySQL, Docker, Docker Compose, Nginx, Gunicorn (gevent), GitLab CI/CD, Sentry, OpenPyXL, HTML5/CSS3/JavaScript.",
+        role: "Frontend Developer",
+        techStack: "HTML5, Bootstrap 5 (Latest), CSS3, JavaScript, Python, Django 4.2 LTS, DRF, MySQL.",
         accomplishments: [
-          "Core Platform Architecture: Designed clean, modular Django apps (user, administrator, website, common) following MVC principles, enabling seamless separation of user management, web client views, and admin workflows.",
-          "Dynamic CMS & Content Management: Developed administrative portals allowing non-technical staff to control homepage banners, latest news, department catalogs, course details (with dynamic seat capacity & eligibility criteria), and leadership directories.",
-          "Student & Alumni Services: Engineered interactive web endpoints for Student Grievance submissions and Alumni Profile registration, complete with data validation, export capabilities (OpenPyXL), and transaction tracking.",
-          "DevOps & Security Automation: Created production Docker containers (Dockerfile, docker-compose.yml) and configured a 2-stage GitLab CI pipeline (test & deploy) that runs automated security audits (--tag security) and automatically syncs updates to staging servers.",
-          "Application Security & Health: Applied strict session/cookie security settings (SESSION_COOKIE_SECURE, CSRF_COOKIE_SECURE), Google reCAPTCHA verification, and Sentry exception reporting for production reliability."
+          "Frontend UI Design: Built intuitive CMS admin interfaces using HTML5 and Bootstrap 5 (Latest) allowing non-technical college staff to update homepage content, course seat capacities, and department news.",
+          "Interactive Student & Alumni Forms: Developed responsive web forms for Student Grievance submission and Alumni registration with dynamic field validation.",
+          "Frontend Build & Performance Optimization: Configured asset minification and image compression to ensure crisp, rapid rendering on low-bandwidth mobile networks."
         ],
         shortBulletPoints: [
-          "Architected full-stack university CMS serving students, faculty, and alumni with role-based administrative CRUD controls.",
-          "Implemented Student Grievance Redressal system and Alumni directory with automated email alerts and OpenPyXL data exports.",
-          "Configured GitLab CI/CD pipeline running automated security audits (manage.py check --tag security) and zero-downtime SSH deployments.",
-          "Integrated Sentry SDK for runtime error monitoring, Gunicorn gevent async workers, and Nginx reverse proxy."
+          "Engineered HTML5 and Bootstrap 5 (Latest) frontend components of university web CMS serving students, faculty, and alumni.",
+          "Built interactive Student Grievance forms and administrative content management interfaces.",
+          "Optimized mobile frontend performance and cross-browser compatibility."
         ],
         interviewTalkingPoints: [
           {
-            topic: "Custom User Authentication Architecture",
-            quote: "In this project, instead of relying solely on default Django auth, I implemented a custom UserProfile inheriting from AbstractUser to support role-based permissions (Super Admin vs Admin). I also created a token management mechanism to handle API session storage."
-          },
-          {
-            topic: "CI/CD & Automated Security Pipelines",
-            quote: "I setup a GitLab CI pipeline with two stages: test and deploy. In the test stage, it spins up a MySQL service container and executes manage.py check --tag security --deploy to block insecure code from reaching production."
+            topic: "CMS User Experience",
+            quote: "Designed ultra-simple Bootstrap 5 admin workflows for non-technical college staff, allowing easy news, banner, and department catalog updates."
           }
         ]
       }
@@ -199,7 +164,7 @@ export default function Projects() {
       id: "chroma-3d",
       title: "Chroma 3D Interactive Visualizer",
       category: "Next.js & 3D",
-      role: "Frontend & 3D Engineer",
+      role: "Frontend & 3D Developer",
       summary: "Interactive WebGL 3D product visualizer featuring custom shaders, lighting controls, dynamic particle fields, and smooth camera lerp transitions.",
       tags: ["Next.js", "React.js", "Three.js", "React Three Fiber", "Tailwind CSS"],
       imageGradient: "from-cyan-500/10 via-indigo-500/5 to-white",
@@ -247,7 +212,7 @@ export default function Projects() {
             <span>ENTERPRISE PORTFOLIO</span>
           </div>
           <h2 className="text-3xl sm:text-5xl font-extrabold text-slate-900 tracking-tight">
-            Featured <span className="text-gradient-indigo">Projects</span>
+            Featured Projects
           </h2>
           <p className="text-slate-600 text-sm sm:text-base max-w-2xl">
             Enterprise platforms, staffing marketplaces, ERP systems, and interactive 3D applications built with Django, Next.js, and Three.js.

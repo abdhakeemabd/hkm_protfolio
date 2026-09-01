@@ -30,11 +30,13 @@ export default function Footer() {
           {/* Core Tech Stack Info */}
           <div className="text-xs text-slate-600 font-mono flex items-center gap-1.5 bg-slate-50 px-4 py-2 rounded-full border border-slate-200">
             <span>Built with</span>
-            <span className="text-indigo-600 font-semibold">Next.js</span>
+            <span className="text-orange-600 font-semibold">HTML5</span>
+            <span>•</span>
+            <span className="text-purple-600 font-semibold">Bootstrap 5 (Latest)</span>
+            <span>•</span>
+            <span className="text-amber-600 font-semibold">JavaScript</span>
             <span>•</span>
             <span className="text-emerald-600 font-semibold">Django</span>
-            <span>•</span>
-            <span className="text-amber-600 font-semibold">Three.js</span>
           </div>
 
           {/* Back to top button */}

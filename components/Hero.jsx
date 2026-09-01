@@ -42,7 +42,7 @@ export default function Hero() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
               </span>
-              Available for full-stack & frontend projects
+              Available for Frontend & Full-Stack Projects
             </div>
 
             {/* Main Title - Single Unified Name */}
@@ -50,31 +50,31 @@ export default function Hero() {
               <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold text-slate-900 tracking-tight leading-[1.08]">
                 Abdul Hakeem
               </h1>
-              <div className="text-xl sm:text-3xl font-bold text-slate-800 tracking-tight flex flex-wrap items-center gap-2">
-                <span>Frontend & Full-Stack Developer</span>
+              <div className="text-xl sm:text-3xl font-bold text-slate-900 tracking-tight">
+                Frontend Developer
               </div>
               <div className="flex flex-wrap items-center gap-2 pt-2">
-                <span className="px-3.5 py-1 rounded-lg bg-white border border-slate-200 text-slate-800 font-mono text-xs sm:text-sm font-semibold shadow-xs">
-                  React.js
+                <span className="px-3.5 py-1 rounded-lg bg-orange-50 border border-orange-200 text-orange-700 font-mono text-xs sm:text-sm font-semibold shadow-xs">
+                  HTML5
                 </span>
                 <span className="text-slate-300">•</span>
-                <span className="px-3.5 py-1 rounded-lg bg-indigo-50 border border-indigo-200 text-indigo-700 font-mono text-xs sm:text-sm font-semibold shadow-xs">
-                  Next.js
-                </span>
-                <span className="text-slate-300">•</span>
-                <span className="px-3.5 py-1 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-700 font-mono text-xs sm:text-sm font-semibold shadow-xs">
-                  Python / Django
+                <span className="px-3.5 py-1 rounded-lg bg-purple-50 border border-purple-200 text-purple-700 font-mono text-xs sm:text-sm font-semibold shadow-xs">
+                  Bootstrap 5 (Latest)
                 </span>
                 <span className="text-slate-300">•</span>
                 <span className="px-3.5 py-1 rounded-lg bg-amber-50 border border-amber-200 text-amber-800 font-mono text-xs sm:text-sm font-semibold shadow-xs">
-                  Three.js
+                  JavaScript (ES6+)
+                </span>
+                <span className="text-slate-300">•</span>
+                <span className="px-3.5 py-1 rounded-lg bg-blue-50 border border-blue-200 text-blue-700 font-mono text-xs sm:text-sm font-semibold shadow-xs">
+                  CSS3
                 </span>
               </div>
             </div>
 
             {/* Supporting Text */}
             <p className="text-slate-600 text-base sm:text-lg max-w-2xl leading-relaxed">
-              Building modern, responsive and interactive web experiences with React, Next.js, Django, and interactive 3D WebGL technologies.
+              Frontend Developer specializing in building responsive, mobile-first, high-performance web applications using HTML5, Bootstrap 5 (Latest), JavaScript (ES6+), and CSS3.
             </p>
 
             {/* CTA Buttons & Social Links */}
@@ -106,7 +106,7 @@ export default function Hero() {
                   <GithubIcon className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/abdul-hakeem-b0a05a256"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 rounded-full bg-white border border-slate-200 text-slate-600 hover:text-indigo-600 hover:border-indigo-200 transition-all shadow-xs"
@@ -120,7 +120,7 @@ export default function Hero() {
             {/* Tech Stack Pills */}
             <div className="pt-6 border-t border-slate-200 flex items-center gap-6 text-xs text-slate-500 font-mono">
               <span className="flex items-center gap-1.5">
-                <Layers className="w-4 h-4 text-indigo-600" /> Next.js App Router
+                <Layers className="w-4 h-4 text-purple-600" /> HTML5 & Bootstrap 5 Engine
               </span>
               <span className="flex items-center gap-1.5">
                 <Cpu className="w-4 h-4 text-emerald-600" /> Three.js 3D Canvas

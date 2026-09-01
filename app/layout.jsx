@@ -73,7 +73,7 @@ export default function RootLayout({ children }) {
     image: "https://abdulhakeem.dev/profile.jpg",
     sameAs: [
       "https://github.com",
-      "https://linkedin.com"
+      "https://www.linkedin.com/in/abdul-hakeem-b0a05a256"
     ],
     knowsAbout: [
       "React.js",
