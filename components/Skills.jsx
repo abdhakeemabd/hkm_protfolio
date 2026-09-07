@@ -4,21 +4,16 @@ import { Cpu } from "lucide-react";
 
 export default function Skills() {
   // Exact order as required by specification:
-  // 1. Next.js 2. React.js 3. JavaScript 4. Three.js 5. React Three Fiber 6. Tailwind CSS 7. HTML5 8. CSS3
-  // 9. Node.js 10. Express.js 11. Python 12. Django 13. MySQL 14. Git / GitHub
+  // 1. Next.js 2. React.js 3. Tailwind CSS 4. HTML5 5. JavaScript 6. Three.js 7. Python 8. Bootstrap
   const skillsList = [
-    { name: "HTML5", rank: 1, category: "Frontend Core", level: "Primary Focus", desc: "Semantic Markup, Responsive Layouts, SEO", highlight: true, color: "from-orange-500 to-amber-600" },
-    { name: "Bootstrap 5 (Latest)", rank: 2, category: "Frontend Core", level: "Primary Focus", desc: "Mobile-First Grid, Utility Classes, UI Components", highlight: true, color: "from-purple-600 to-indigo-600" },
-    { name: "JavaScript (ES6+)", rank: 3, category: "Frontend Core", level: "Primary Focus", desc: "ES6+, DOM Manipulation, AJAX, Async Logic", highlight: true, color: "from-amber-500 to-yellow-600" },
-    { name: "CSS3", rank: 4, category: "Frontend Core", level: "Primary Focus", desc: "Flexbox, CSS Grid, Custom Animations", highlight: true, color: "from-blue-600 to-indigo-600" },
-    { name: "React.js", rank: 5, category: "Modern Stack", level: "Primary Focus", desc: "Component Architecture, Hooks, Dynamic UI", highlight: true, color: "from-blue-500 to-cyan-600" },
-    { name: "Next.js", rank: 6, category: "Modern Stack", level: "Primary Focus", desc: "App Router, SSR, Server Components", highlight: true, color: "from-slate-700 to-slate-900" },
-    { name: "Tailwind CSS", rank: 7, category: "Styling & UI", level: "Core Stack", desc: "Utility-first Layouts, Responsive UI", highlight: false, color: "from-teal-500 to-emerald-600" },
-    { name: "Three.js", rank: 8, category: "3D & WebGL", level: "Interactive UI", desc: "3D Visualizers, Canvas Shaders", highlight: false, color: "from-indigo-600 to-purple-600" },
-    { name: "Python", rank: 9, category: "Backend Stack", level: "Core Stack", desc: "Scripting, Business Logic", highlight: false, color: "from-amber-600 to-blue-600" },
-    { name: "Django", rank: 10, category: "Backend Stack", level: "Core Stack", desc: "Django DRF, Web Templates, ORM", highlight: false, color: "from-emerald-700 to-teal-800" },
-    { name: "MySQL", rank: 11, category: "Databases", level: "Secondary Skill", desc: "Relational Queries & Schemas", highlight: false, color: "from-blue-600 to-indigo-700" },
-    { name: "Git / GitHub", rank: 12, category: "Dev Tools", level: "Core Tooling", desc: "Version Control, Deployment Workflows", highlight: false, color: "from-orange-600 to-red-600" },
+    { name: "Next.js", rank: 1, category: "Modern Stack", level: "Primary Focus", desc: "App Router, SSR, Server Components", highlight: true, color: "from-slate-700 to-slate-900" },
+    { name: "React.js", rank: 2, category: "Modern Stack", level: "Primary Focus", desc: "Component Architecture, Hooks, Dynamic UI", highlight: true, color: "from-blue-500 to-cyan-600" },
+    { name: "Tailwind CSS", rank: 3, category: "Styling & UI", level: "Core Stack", desc: "Utility-first Layouts, Responsive UI", highlight: true, color: "from-teal-500 to-emerald-600" },
+    { name: "HTML5", rank: 4, category: "Frontend Core", level: "Primary Focus", desc: "Semantic Markup, Responsive Layouts, SEO", highlight: true, color: "from-orange-500 to-amber-600" },
+    { name: "JavaScript", rank: 5, category: "Frontend Core", level: "Primary Focus", desc: "ES6+, DOM Manipulation, Async Logic", highlight: true, color: "from-amber-500 to-yellow-600" },
+    { name: "Three.js", rank: 6, category: "3D & WebGL", level: "Interactive UI", desc: "3D Visualizers, Canvas Shaders", highlight: true, color: "from-indigo-600 to-purple-600" },
+    { name: "Python", rank: 7, category: "Backend Stack", level: "Core Stack", desc: "Scripting, Business Logic", highlight: false, color: "from-amber-600 to-blue-600" },
+    { name: "Bootstrap", rank: 8, category: "Frontend Core", level: "Core Stack", desc: "Mobile-First Grid, Utility Classes", highlight: false, color: "from-purple-600 to-indigo-600" },
   ];
 
   return (
