@@ -4,7 +4,7 @@ import { Cpu } from "lucide-react";
 
 export default function Skills() {
   // Exact order as required by specification:
-  // 1. Next.js 2. React.js 3. Tailwind CSS 4. HTML5 5. JavaScript 6. Three.js 7. Python 8. Bootstrap
+    // 1. Next.js 2. React.js 3. Tailwind CSS 4. HTML5 5. JavaScript 6. Three.js 7. Python 8. Bootstrap
   const skillsList = [
     { name: "Next.js", rank: 1, category: "Modern Stack", level: "Primary Focus", desc: "App Router, SSR, Server Components", highlight: true, color: "from-slate-700 to-slate-900" },
     { name: "React.js", rank: 2, category: "Modern Stack", level: "Primary Focus", desc: "Component Architecture, Hooks, Dynamic UI", highlight: true, color: "from-blue-500 to-cyan-600" },
