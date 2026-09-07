@@ -58,23 +58,35 @@ export default function Hero() {
                   HTML5
                 </span>
                 <span className="text-slate-300">•</span>
-                <span className="px-3.5 py-1 rounded-lg bg-purple-50 border border-purple-200 text-purple-700 font-mono text-xs sm:text-sm font-semibold shadow-xs">
-                  Bootstrap 5 (Latest)
+                <span className="px-3.5 py-1 rounded-lg bg-slate-100 border border-slate-300 text-slate-800 font-mono text-xs sm:text-sm font-semibold shadow-xs">
+                  Next.js
                 </span>
                 <span className="text-slate-300">•</span>
-                <span className="px-3.5 py-1 rounded-lg bg-amber-50 border border-amber-200 text-amber-800 font-mono text-xs sm:text-sm font-semibold shadow-xs">
-                  JavaScript (ES6+)
+                <span className="px-3.5 py-1 rounded-lg bg-cyan-50 border border-cyan-200 text-cyan-700 font-mono text-xs sm:text-sm font-semibold shadow-xs">
+                  React.js
                 </span>
                 <span className="text-slate-300">•</span>
-                <span className="px-3.5 py-1 rounded-lg bg-blue-50 border border-blue-200 text-blue-700 font-mono text-xs sm:text-sm font-semibold shadow-xs">
-                  CSS3
+                <span className="px-3.5 py-1 rounded-lg bg-green-50 border border-green-200 text-green-700 font-mono text-xs sm:text-sm font-semibold shadow-xs">
+                  Node.js
+                </span>
+                <span className="text-slate-300">•</span>
+                <span className="px-3.5 py-1 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-700 font-mono text-xs sm:text-sm font-semibold shadow-xs">
+                  Django
+                </span>
+                <span className="text-slate-300">•</span>
+                <span className="px-3.5 py-1 rounded-lg bg-indigo-50 border border-indigo-200 text-indigo-700 font-mono text-xs sm:text-sm font-semibold shadow-xs">
+                  Three.js
+                </span>
+                <span className="text-slate-300">•</span>
+                <span className="px-3.5 py-1 rounded-lg bg-sky-50 border border-sky-200 text-sky-700 font-mono text-xs sm:text-sm font-semibold shadow-xs">
+                  Tailwind CSS
                 </span>
               </div>
             </div>
 
             {/* Supporting Text */}
             <p className="text-slate-600 text-base sm:text-lg max-w-2xl leading-relaxed">
-              Frontend Developer specializing in building responsive, mobile-first, high-performance web applications using HTML5, Bootstrap 5 (Latest), JavaScript (ES6+), and CSS3.
+              Frontend Developer specializing in building interactive, high-performance web applications using HTML5, Next.js, React.js, Node.js, Django, Three.js, and Tailwind CSS.
             </p>
 
             {/* CTA Buttons & Social Links */}
@@ -120,7 +132,7 @@ export default function Hero() {
             {/* Tech Stack Pills */}
             <div className="pt-6 border-t border-slate-200 flex items-center gap-6 text-xs text-slate-500 font-mono">
               <span className="flex items-center gap-1.5">
-                <Layers className="w-4 h-4 text-purple-600" /> HTML5 & Bootstrap 5 Engine
+                <Layers className="w-4 h-4 text-cyan-600" /> React & Next.js Engine
               </span>
               <span className="flex items-center gap-1.5">
                 <Cpu className="w-4 h-4 text-emerald-600" /> Three.js 3D Canvas

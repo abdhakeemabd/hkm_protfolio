@@ -14,12 +14,12 @@ export default function Footer() {
           
           {/* Brand & Copyright */}
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 flex items-center justify-center">
+            <div className="w-32 h-10 flex items-center">
               <img src="/logo.png" alt="Logo" className="w-full h-full object-contain" />
             </div>
             <div>
               <p className="text-sm font-bold text-slate-900">
-                Abdul Hakeem <span className="text-indigo-600 font-mono text-xs font-normal">| Full-Stack & Frontend Developer</span>
+                <span className="text-indigo-600 font-mono text-xs font-normal">Full-Stack & Frontend Developer</span>
               </p>
               <p className="text-xs text-slate-500 font-mono">
                 © {new Date().getFullYear()} All rights reserved.
@@ -28,15 +28,15 @@ export default function Footer() {
           </div>
 
           {/* Core Tech Stack Info */}
-          <div className="text-xs text-slate-600 font-mono flex items-center gap-1.5 bg-slate-50 px-4 py-2 rounded-full border border-slate-200">
+          <div className="text-xs text-slate-600 font-mono flex flex-wrap justify-center items-center gap-1.5 bg-slate-50 px-4 py-2 rounded-full border border-slate-200">
             <span>Built with</span>
-            <span className="text-orange-600 font-semibold">HTML5</span>
+            <span className="text-cyan-600 font-semibold">React.js</span>
             <span>•</span>
-            <span className="text-purple-600 font-semibold">Bootstrap 5 (Latest)</span>
+            <span className="text-slate-900 font-semibold">Next.js</span>
             <span>•</span>
-            <span className="text-amber-600 font-semibold">JavaScript</span>
+            <span className="text-indigo-600 font-semibold">Three.js</span>
             <span>•</span>
-            <span className="text-emerald-600 font-semibold">Django</span>
+            <span className="text-sky-500 font-semibold">Tailwind CSS</span>
           </div>
 
           {/* Back to top button */}
