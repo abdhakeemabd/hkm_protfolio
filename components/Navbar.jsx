@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Menu, X, Code2, ArrowRight } from "lucide-react";
+import { Menu, X, ArrowRight } from "lucide-react";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -42,8 +42,8 @@ export default function Navbar() {
             href="#"
             className="flex items-center gap-2.5 group text-slate-900 font-bold text-xl tracking-tight"
           >
-            <div className="w-9 h-9 rounded-xl bg-slate-900 flex items-center justify-center text-white shadow-md shadow-slate-900/10 group-hover:scale-105 transition-transform duration-300">
-              <Code2 className="w-5 h-5 text-indigo-400" />
+            <div className="w-9 h-9 flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
+              <img src="/logo.png" alt="Logo" className="w-full h-full object-contain" />
             </div>
             <span className="text-slate-900 font-extrabold text-xl tracking-tight">
               Abdul Hakeem
